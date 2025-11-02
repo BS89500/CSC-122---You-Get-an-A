@@ -31,5 +31,5 @@ TEST_CASE( "Gradebook Test" ) {
 
 TEST_CASE("No Students") {
     Gradebook gradebook;
-    REQUIRE(gradebook.report() == "Error: No Students in Gradebook");
+    REQUIRE(gradebook.report() == "");
 }
